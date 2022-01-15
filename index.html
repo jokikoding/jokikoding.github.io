@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="style.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Joki_Koding</title>
+  </head>
+  <body>
+    <div class="carousel">
+      <div class="carousel-item" href="#one!">
+        <div class="box-1">
+          <h1>Joki_Koding</h1>
+          <h3>Lab.</h3>
+          
+          <a href="https://wa.me/6285752242790">Hubungi Kami</a>
+          <img src="img/rgb.png" alt="">
+        </div>
+      </div>
+      <div class="carousel-item" href="#two!">
+		<div class="box-2">
+			<h3>Tentang Kami</h3>
+			<p>Joki_Koding adalah sebuah tim yang siap mengerjakan tugas - tugas kalian.</p>
+			<h5>Apa yang bisa kami kerjakan?</h5>
+			<ul>
+				<li>Pembuatan Website(statis/dinamis)</li>
+				<li>Landing Page</li>
+				<li>Tugas Koding (HTML, CSS, PHP, mySql, JavaScript, C++, Python </li>
+				<li>UAS/UTS Koding</li>
+				<li>Aplikasi Untuk Mengengola Bisnis</li>
+			</ul>
+			<div class="box-icon">
+				
+			</div>
+		</div>
+	  </div>
+      <div class="carousel-item" href="#three!">
+		<div class="box-3">
+			<h3>Dapatkan Jasa Koding Berkualitas Sesuai dengan Kebutuhan Anda</h3>
+			<ul>
+				<li>Tim programmer dengan pengalaman profesional</li>
+				<li>Revisi pekerjaan yang tidak terbatas</li>
+				<li>100% jaminan sampai selesai</li>
+			</ul>
+				
+		</div>
+	  </div>
+      <div class="carousel-item" href="#four!">
+		<div class="box-4">	
+			<h3>Membutuhkan Jasa Koding Hubungi Kami</h3>
+			<div class="link">
+				<a href="https://wa.me/6285752242790"><img src="img/wa.png"></a>
+				<a href="https://instagram.com/joki_koding"><img src="img/ig.png"></a>
+			</div>
+		</div>
+	  </div>
+    </div>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="materialize.min.js"></script>
+
+    <script>
+      let options = {
+        duration: 200,
+        // fullWidth: true,
+        // dist: 10,
+      }
+
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.carousel');
+        var instances = M.Carousel.init(elems, options);
+      });
+    </script>
+  </body>
+</html>
